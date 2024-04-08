@@ -1,0 +1,37 @@
+.parent {
+    position: relative;
+    z-index: 10;
+    width: 800px;
+    height: 450px;
+    top: 80px;
+    padding: .25rem;
+    background-color: blueviolet;
+
+}
+
+.parent2 {
+    position: relative;
+    top: -190px;
+    z-index: 15;
+    width: 800px;
+    height: 450px;
+    padding: .25rem;
+    background-color: gold;
+
+}
+
+
+.child {
+    width: 100px;
+    height: 200px;
+    padding: .25rem;
+
+}
+
+.child1 {
+    background-color: burlywood;
+}
+
+.child2 {
+    background-color: grey;
+}
